@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- start laser -->
+    <div id="laserDescription">
+      <div class="service" style="display: flex">
+        <div class="service-container">
+          <img src="../../assets/laser.jpg" alt="laser" class="service-image" />
+        </div>
+        <div class="service-container description">
+          <h1>Laser</h1>
+          <p class="description-text">
+            Introducing Laser printing, the game-changer in high-quality,
+            efficient printing solutions. With precision and speed at its core.
+            Laser printing sets a new standard for professional document
+            production. Say goodbye to blurry imgaes and faded text as Laser
+            printing delivers crisp, vibrant results every time.
+          </p>
+        </div>
+      </div>
+
+      <div class="customize-container">
+        <div class="customize-left">
+          <p><b>Enter value</b></p>
+          <div class="size-input-container">
+            <label class="size-input">
+              Width
+              <input type="text" placeholder="10" />
+            </label>
+            <span> x </span>
+            <label class="size-input">
+              Height
+              <input type="text" placeholder="10" />
+            </label>
+            <span> = </span>
+            <label class="size-input">
+              Price
+              <input type="text" placeholder="₱2000" />
+            </label>
+          </div>
+          <p>Price: ₱300/sq Ft</p>
+
+          <label class="size-input">
+            <b>Quantity</b>
+            <div class="quantity-input-container">
+              <button>+</button
+              ><input
+                type="text"
+                placeholder="10"
+                class="quantity-input"
+              /><button>-</button>
+            </div>
+          </label>
+
+          <label>
+            <b>Upload File</b>
+            <div
+              style="
+                border: 1px solid black;
+                width: 200px;
+                padding: 5px 0;
+                display: flex;
+                align-items: center;
+              "
+            >
+              <input
+                type="text"
+                placeholder="File Name"
+                style="outline: none; border: none; padding-left: 5px"
+              />
+              <i class="fas fa-upload"></i>
+            </div>
+          </label>
+          Only JPEG, PNG, or PDF File
+        </div>
+
+        <div class="customize-right">
+          <label class="instructions">
+            <b>Instructions</b>
+            <textarea
+              placeholder="Add instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- end laser -->
+  </body>
+</html>

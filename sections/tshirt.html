@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="tshirtDescription">
+      <div class="service" style="display: flex">
+        <div class="service-container">
+          <img src="../assets/tshirt.jpg" alt="tshirt" class="service-image" />
+        </div>
+        <div class="service-container description">
+          <h1>T-Shirt</h1>
+          <p class="description-text">
+            Introducing our T-Shirt printing service where we bring your designs
+            to life on the shirts your provide. Whether it's a special event, a
+            promotional campaign, or simply expressing your personal style, our
+            state-of-the-art printing technology ensures that your vision is
+            flawlessly transferred onto the fabric.
+          </p>
+        </div>
+      </div>
+
+      <div class="customize-container">
+        <div class="customize-left">
+          <div style="margin-top: 20px">
+            <b>Size</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                8.3 x 11.7 inches (A4)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                11.7 x 16.5 inches (A3)
+              </label>
+            </div>
+          </div>
+
+          <div style="margin-top: 20px">
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                Small logo
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                Back-to-back
+              </label>
+            </div>
+          </div>
+
+          <div class="size-input-container">
+            <label class="size-input">
+              <b>Quantity</b>
+              <div class="quantity-input-container">
+                <button>+</button
+                ><input
+                  type="text"
+                  placeholder="10"
+                  class="quantity-input"
+                /><button>-</button>
+              </div>
+            </label>
+
+            <label class="size-input">
+              Price
+              <input type="text" placeholder="₱80" />
+            </label>
+          </div>
+
+          <div style="margin-top: 20px">
+            <b>Design</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                In-store(+₱15.00)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                Custom
+              </label>
+            </div>
+          </div>
+
+          <label>
+            <b>Upload File</b>
+            <div
+              style="
+                border: 1px solid black;
+                width: 200px;
+                padding: 5px 0;
+                display: flex;
+                align-items: center;
+              "
+            >
+              <input
+                type="text"
+                placeholder="File Name"
+                style="outline: none; border: none; padding-left: 5px"
+              />
+              <i class="fas fa-upload"></i>
+            </div>
+          </label>
+          Only JPEG, PNG, or PDF File
+        </div>
+
+        <div class="customize-right">
+          <label class="instructions">
+            <b>Instructions</b>
+            <textarea
+              placeholder="Add instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </body>
+</html>

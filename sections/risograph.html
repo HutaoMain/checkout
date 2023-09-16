@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="risoGraphDescription">
+      <div class="service" style="display: flex">
+        <div class="service-container">
+          <img
+            src="https://baskl.com.my/wp-content/uploads/2023/03/Screenshot-2023-03-17-125818.jpg"
+            alt="risograph"
+            class="service-image"
+          />
+        </div>
+        <div class="service-container description">
+          <h1>Risograph</h1>
+          <p class="description-text">
+            Risograph printing offers a unique and eco-friendly approach to
+            high-quality prints. From vibrant posters and zines to personalized
+            stationary and art prints, Risograph printing brings your creations
+            to life with its rich colors and featured finishes. With its
+            efficient ink usage and minimal environmental impact, it is the
+            ideal choice for those seeking sustainable printing solutions.
+          </p>
+        </div>
+      </div>
+
+      <div class="customize-container">
+        <div class="customize-left">
+          <div style="margin-top: 20px">
+            <b>Size</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                6.5 x 10.5 inches (Short)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                8.5 x 14 inches (Long)
+              </label>
+            </div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-top: 20px;
+            "
+          >
+            <label class="size-input">
+              <b>Quantity</b>
+              <div class="quantity-input-container">
+                <button>+</button
+                ><input
+                  type="text"
+                  placeholder="6"
+                  class="quantity-input"
+                /><button>-</button>
+              </div>
+              Pieces: 500
+            </label>
+            =
+            <label class="size-input">
+              <div class="quantity-input-container">
+                <input type="text" placeholder="₱540" class="quantity-input" />
+              </div>
+            </label>
+
+            <div style="display: flex; flex-direction: column; color: gray">
+              <span>Price: </span>
+              <span> ₱400/ream - Short</span>
+              <span>₱420/ream - Long</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 20px">
+            <b>Design</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                In-store(+₱15.00)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                Custom
+              </label>
+            </div>
+          </div>
+
+          <label>
+            <b>Upload File</b>
+            <div
+              style="
+                border: 1px solid black;
+                width: 200px;
+                padding: 5px 0;
+                display: flex;
+                align-items: center;
+              "
+            >
+              <input
+                type="text"
+                placeholder="File Name"
+                style="outline: none; border: none; padding-left: 5px"
+              />
+              <i class="fas fa-upload"></i>
+            </div>
+          </label>
+          Only JPEG, PNG, or PDF File
+        </div>
+
+        <div class="customize-right">
+          <label class="instructions">
+            <b>Instructions</b>
+            <textarea
+              placeholder="Add instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </body>
+</html>

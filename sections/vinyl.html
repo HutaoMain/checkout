@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- start vinyl -->
+    <div id="vinylDescription">
+      <div class="service" style="display: flex">
+        <div class="service-container">
+          <img
+            src="https://i.ebayimg.com/images/g/XXYAAOSwaeRbTp8d/s-l1200.jpg"
+            alt="vinyl"
+            class="service-image"
+          />
+        </div>
+        <div class="service-container description">
+          <h1>Vinyl</h1>
+          <p class="description-text">
+            Vinyl printing offers endless possibilities for branding,
+            advertising, and creative expression. From large-scale banners and
+            vehicle wraps to window graphics and promotional signage, Vinyl
+            Printing ensures your message gets noticed. Our high-quality vinyl
+            material and advanced printing technology deliver sharp, crisp
+            images that withstand the elements, making it perfect for both
+            indoor and outdoor applications.
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-top: 20px">
+        <b>Color</b>
+        <div>
+          <label>
+            <input type="radio" name="design" />
+            Black/White
+          </label>
+
+          <label>
+            <input type="radio" name="design" />
+            Gold/Silver
+          </label>
+        </div>
+      </div>
+
+      <div class="customize-container">
+        <div class="customize-left">
+          <p><b>Enter value</b></p>
+          <div class="size-input-container">
+            <label class="size-input">
+              Meter
+              <input type="text" placeholder="2" />
+            </label>
+
+            <span> = </span>
+            <label class="size-input">
+              Price
+              <input type="text" placeholder="₱600" />
+            </label>
+          </div>
+          <p>Price: ₱300/sq Ft</p>
+
+          <div style="margin-top: 20px">
+            <b>Design</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                In-store(+₱15.00)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                Custom
+              </label>
+            </div>
+          </div>
+
+          <label>
+            <b>Upload File</b>
+            <div
+              style="
+                border: 1px solid black;
+                width: 200px;
+                padding: 5px 0;
+                display: flex;
+                align-items: center;
+              "
+            >
+              <input
+                type="text"
+                placeholder="File Name"
+                style="outline: none; border: none; padding-left: 5px"
+              />
+              <i class="fas fa-upload"></i>
+            </div>
+          </label>
+          Only JPEG, PNG, or PDF File
+        </div>
+
+        <div class="customize-right">
+          <label class="instructions">
+            <b>Instructions</b>
+            <textarea
+              placeholder="Add instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- end vinyl -->
+  </body>
+</html>

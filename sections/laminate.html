@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- start laminate -->
+    <div id="laminateDescription">
+      <div class="service" style="display: flex">
+        <div class="service-container">
+          <img
+            src="/assets/laminate.jpg"
+            alt="laminated"
+            class="service-image"
+          />
+        </div>
+        <div class="service-container description">
+          <h1>Laminate</h1>
+          <p class="description-text">
+            Whether its business cards, menus, posters, or signage, our high
+            quality laminations, provides a professional touch that enhances the
+            visual appeal and extends the lifespan of your prints. With options
+            for glossy, matte, or textured finishes, you can customize the look
+            and feel of your laminated materials to perfectly suit your brand or
+            personal style.
+          </p>
+        </div>
+      </div>
+      <div class="customize-container">
+        <div class="customize-left">
+          <div style="margin-top: 20px">
+            <b>Size</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                3.375" x 2.125" (ID Size)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                8.3 x 11.7inches (A4)
+              </label>
+            </div>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 10px">
+            <label class="size-input">
+              <b>Quantity</b>
+              <div class="quantity-input-container">
+                <button>+</button
+                ><input
+                  type="text"
+                  placeholder="10"
+                  class="quantity-input"
+                /><button>-</button>
+              </div>
+            </label>
+            <label class="size-input">
+              <b>Price</b>
+              <div class="quantity-input-container">
+                <input type="text" placeholder="₱10" class="quantity-input" />
+              </div>
+            </label>
+          </div>
+
+          <div style="margin-top: 20px">
+            <b>Design</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                In-store(+₱15.00)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                Custom
+              </label>
+            </div>
+          </div>
+
+          <label>
+            <b>Upload File</b>
+            <div
+              style="
+                border: 1px solid black;
+                width: 200px;
+                padding: 5px 0;
+                display: flex;
+                align-items: center;
+              "
+            >
+              <input
+                type="text"
+                placeholder="File Name"
+                style="outline: none; border: none; padding-left: 5px"
+              />
+              <i class="fas fa-upload"></i>
+            </div>
+          </label>
+          Only JPEG, PNG, or PDF File
+        </div>
+
+        <div class="customize-right">
+          <label class="instructions">
+            <b>Instructions</b>
+            <textarea
+              placeholder="Add instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- end laminate end -->
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- start lanyard -->
+    <div id="lanyardDescription">
+      <div class="service" style="display: flex">
+        <div class="service-container">
+          <img src="/assets/lanyard.jpg" alt="lanyard" class="service-image" />
+        </div>
+        <div class="service-container description">
+          <h1>Lanyard</h1>
+          <p class="description-text">
+            Introducing our Lanyard printing service, where you can transform
+            your own lanyards into personalized branding and identification
+            tools. Whether it's for events, conferences, or workplace
+            identification, our advanced printing techonology ensures your logo,
+            name, or design stands out on the lanyard fabric.
+          </p>
+        </div>
+      </div>
+      <div class="customize-container">
+        <div class="customize-left">
+          <div
+            style="
+              display: flex;
+              align-items: flex-start;
+              gap: 10px;
+              margin-top: 20px;
+            "
+          >
+            <label class="size-input">
+              <b>Quantity</b>
+              <div class="quantity-input-container">
+                <button>+</button
+                ><input
+                  type="text"
+                  placeholder="6"
+                  class="quantity-input"
+                /><button>-</button>
+              </div>
+              Minimum: 6pcs
+            </label>
+            =
+            <label class="size-input">
+              <b>Price</b>
+              <div class="quantity-input-container">
+                <input type="text" placeholder="₱540" class="quantity-input" />
+              </div>
+            </label>
+
+            <div style="display: flex; flex-direction: column">
+              <span>Pricing</span>
+              <span>6-10pcs = ₱90 each</span>
+              <span>11-30pcs = ₱80 each</span>
+              <span>31-100pcs = ₱70 each</span>
+              <span>100pcs+ = ₱65 each</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 20px">
+            <b>Design</b>
+            <div>
+              <label>
+                <input type="radio" name="design" />
+                In-store(+₱15.00)
+              </label>
+
+              <label>
+                <input type="radio" name="design" />
+                Custom
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="customize-right">
+          <label class="instructions">
+            <b>Instructions</b>
+            <textarea
+              placeholder="Add instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- end lanyard end -->
+  </body>
+</html>
